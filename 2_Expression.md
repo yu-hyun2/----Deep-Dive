@@ -6,7 +6,7 @@
 
 # 05장 표현식과 문
 
-![value](Modern-JavaScript-Deep-Dive/image/value.png)
+![value](image/value.png)
 
 ## 값 value
 
