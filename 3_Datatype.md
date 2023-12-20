@@ -4,6 +4,8 @@
 
 # 06장 데이터 타입
 
+  <br>
+  
 ## 1. 자바스크립트 타입 분류
 
 - 6가지(ES5) + symbol(ES6)
@@ -93,7 +95,9 @@ let nullVar = null;
 console.log(typeof nullVar); // "object" (주의: typeof null은 "object"를 반환)
 ```
 
-> #### ✅ 타입별 특징
+  <br>
+
+#### ✅ 타입별 특징
 
 - **number**
   배정밀도 64비트 부동소수점 형식(모든 수를 실수로 처리)
@@ -125,6 +129,8 @@ console.log(element); // null
   >
 - **object**
   자바스크립트는 객체 기반의 언어. 6가지 타입(숫자, 문자열, 불리언, 심볼, 널, 언디파인) 제외하고는 모두 객체 타입
+
+  <br>
 
 ### 🧐 템플릿 리터럴
 
@@ -163,7 +169,7 @@ var score = 100;
 console.log(typeof score); // number
 ```
 
-![data_type](https://velog.velcdn.com/images/oigu529/post/f0624ba2-d02c-44e7-b9a5-f90d6f863427/image.png)
+![datatype](image/datatype.png)
 
 #### 값의 할당
 
@@ -211,15 +217,18 @@ console.log(typeof score); // number
 - 재할당에 의해 언제든지 타입이 변할 수 있음 ➡️ **동적 타이핑**
 - 예) JavaScript, Python, PHP, Ruby, Lisp, Perl ..
 
-> #### ⭐ 동적 타입의 단점 ⭐
+<br>
+
+#### ⭐ 동적 타입의 단점 ⭐
 
 1. 변화하는 변수 값을 추적하기 어려울 수 있음
 2. 값을 확인하기 전에는 타입을 확신할 수 없음
 3. 개발자의 의도와 상관없이 암묵적으로 타입이 자동 변환 되기도 함
 4. 유연성은 높지만 신뢰성은 떨어짐
 5. 데이터 타입을 체크해야 하는 경우 번거롭고 코드 양이 증가함
-   <br>
-   > #### ⭐ 동적 타입 주의 사항 ⭐
+
+#### ⭐ 동적 타입 주의 사항 ⭐
+
 6. 변수는 꼭 필요할 때만 사용
 7. 변수의 스코프를 좁게 만들기
 8. 전역 변수는 최대한 사용하지 않기
