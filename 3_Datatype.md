@@ -99,19 +99,19 @@ console.log(typeof nullVar); // "object" (주의: typeof null은 "object"를 반
 
 #### ✅ 타입별 특징
 
-- **number**
+- **number**  
   배정밀도 64비트 부동소수점 형식(모든 수를 실수로 처리)
   `Infinity`, `-Infinity`, `NaN` 표현 가능
   >
-- **string**
+- **string**  
   '작은 따옴표', "큰 따옴표", \`백틱\` 으로 표현 가능
   백틱(\` \`)은 **템플릿 리터럴** 표기법을 사용 가능하고 ES6부터 도입됨
   >
-- **undefined**
+- **undefined**  
   var로 선언한 변수의 값이 암묵적으로 undefined로 초기화 됨
   var로 선언한 변수에 값을 할당하지 않으면 반환되는 타입
   >
-- **null**
+- **null**  
   대소문자 구별로 인해 Null, NULL은 null(값이 없음)을 뜻하지 않음
   함수가 유효한 값을 반환할 수 없는 경우 null 반환
 
