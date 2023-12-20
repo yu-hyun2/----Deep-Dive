@@ -122,12 +122,12 @@ var element = document.querySelector('.myClass');
 console.log(element); // null
 ```
 
-- **symbol**
+- **symbol**  
   심벌 이외의 원시 값은 리터럴을 통해 생성
   심벌은 `Symbol` 함수를 호출해 생성
   ES6에서 추가된 타입이며 변경이 불가능한 원시 타입의 값
   >
-- **object**
+- **object**  
   자바스크립트는 객체 기반의 언어. 6가지 타입(숫자, 문자열, 불리언, 심볼, 널, 언디파인) 제외하고는 모두 객체 타입
 
   <br>
