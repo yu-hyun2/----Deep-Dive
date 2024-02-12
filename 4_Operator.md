@@ -312,3 +312,34 @@ console.log(result); // 짝수
   - 참고) 비트는 2진법의 한 자리 숫자를 의미
 
 <br>
+
+### .. 그 외의 연산자
+
+- 쉼표 연산자
+- 그룹 연산자
+- typeof 연산자
+- 지수 연산자
+- 옵셔널 체이닝
+- null 병합
+- delete
+- new
+- instanceof
+- in
+
+<br><br>
+
+## 연산자 부수 효과
+
+delete, 할당 연산자, 증가/감소 연산자는 다른 코드에 영향을 주는 부수 효과가 있다.
+
+<br><br>
+
+## 연산자 우선순위
+
+[MDN - 연산자 우선순위](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Operator_precedence)
+
+연산자 종류가 많아서 우선순위를 기억하기 어려움
+MDN에서 가볍게 살펴보고 우선순위가 높은 걸 위주로 사용하는 것을 권장
+
+![alt text](.\image\연산자우선순위.png)
+...
